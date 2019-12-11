@@ -97,21 +97,18 @@ app.post("/node/echarts", function (req, res) {
                 ],
                 yAxis: [{
                     name: "电量1",
-                    // type: "line"  写死
                     type: "line",
                     color: "#2d8cf0",
                     data: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
                 },
                 {
                     name: "电量2",
-                    // type: "line"  写死
                     type: "line",
                     color: "#2d8cf0",
                     data: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
                 },
                 {
                     name: "电量3",
-                    // type: "line"  写死
                     type: "line",
                     color: "#2d8cf0",
                     data: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
@@ -139,21 +136,18 @@ app.post("/node/echarts", function (req, res) {
                 ],
                 yAxis: [{
                     name: "电量1",
-                    // type: "line"  写死
                     type: "line",
                     color: "#2d8cf0",
                     data: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
                 },
                 {
                     name: "电量2",
-                    // type: "line"  写死
                     type: "line",
                     color: "#2d8cf0",
                     data: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
                 },
                 {
                     name: "电量3",
-                    // type: "line"  写死
                     type: "line",
                     color: "#2d8cf0",
                     data: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
