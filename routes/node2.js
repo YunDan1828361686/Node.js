@@ -8,14 +8,20 @@ router.use(function (req, res, next) {
 // 定义数据
 const { echarts1, echarts2 } = require('../Json/echarts');
 
-router.post("/echarts", function (req, res) {
+router.post("/echarts1", function (req, res) {
     res.json({
         code: 0,
         msg: "请求成功!",
         data: echarts1
     });
 });
-
+router.post("/echarts2", function (req, res) {
+    res.json({
+        code: 0,
+        msg: "请求成功!",
+        data: echarts2
+    });
+});
 
 router.post("/test1", function (req, res) {
     res.json({
