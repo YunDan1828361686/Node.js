@@ -23,7 +23,6 @@ router.post("/echarts2", function (req, res) {
     });
 });
 
-
 router.post("/test1", function (req, res) {
     res.json({
         code: 0,
