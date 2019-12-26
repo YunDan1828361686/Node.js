@@ -48,12 +48,12 @@ let echarts1 = [
         "yAxis_series": [
             {
                 "name": "注册",
-                "type": "line",
+                "type": "bar",
                 "data": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120]
             },
             {
                 "name": "活跃",
-                "type": "line",
+                "type": "bar",
                 "yAxisIndex": 1,
                 "data": [1.1, 2.2, 3.3, 4.4, 5.5, 6.6, 7.7, 8.8, 9.9, 10.1, 20.4, 30.5]
             }
