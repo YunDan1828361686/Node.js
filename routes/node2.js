@@ -6,7 +6,7 @@ router.use(function (req, res, next) {
 });
 
 // 定义数据
-const { echarts1, echarts2 } = require('../Json/echarts');
+const { echarts1, echarts2, echarts3 } = require('../Json/echarts');
 
 router.post("/echarts1", function (req, res) {
     res.json({
@@ -20,6 +20,13 @@ router.post("/echarts2", function (req, res) {
         code: 0,
         msg: "请求成功!",
         data: echarts2
+    });
+});
+router.post("/echarts3", function (req, res) {
+    res.json({
+        code: 0,
+        msg: "请求成功!",
+        data: echarts3
     });
 });
 
