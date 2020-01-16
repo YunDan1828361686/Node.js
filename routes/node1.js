@@ -19,6 +19,13 @@ router.post("/table", function (req, res) {
         res.json(pagination2);
     }
 });
+router.post("/Upload", function (req, res) {
+    res.json({
+        code: 200,
+        imgurl: "/img/logo.a027c628.jpg",
+        imgname: "图片1"
+    });
+});
 router.post("/org", function (req, res) {
     res.json({
         id: 0,
