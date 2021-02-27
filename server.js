@@ -34,8 +34,14 @@ app.post("/login", function (req, res) {
 
 app.post("/logout", function (req, res) {
     res.json({
-        err: 0,
+        code: 0,
         msg: "退出登录！"
+    });
+});
+app.post("/ifInline", function (req, res) {
+    res.json({
+        code: 0,
+        msg: "服务器在线！"
     });
 });
 
