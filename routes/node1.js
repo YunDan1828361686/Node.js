@@ -29,45 +29,56 @@ router.post("/Upload", function (req, res) {
 router.post("/org", function (req, res) {
     res.json({
         id: 0,
+        pid: null,
         label: 'XXX科技有限公司',
         children: [
             {
                 id: 2,
+                pid: 0,
                 label: '产品研发部',
                 children: [
                     {
                         id: 5,
+                        pid: 2,
                         label: '研发-前端'
                     }, {
                         id: 6,
+                        pid: 2,
                         label: '研发-后端'
                     }, {
                         id: 9,
+                        pid: 2,
                         label: 'UI设计'
                     }, {
                         id: 10,
+                        pid: 2,
                         label: '产品经理'
                     }
                 ]
             },
             {
                 id: 3,
+                pid: 0,
                 label: '销售部',
                 children: [
                     {
                         id: 7,
+                        pid: 3,
                         label: '销售一部'
                     }, {
                         id: 8,
+                        pid: 3,
                         label: '销售二部'
                     }
                 ]
             },
             {
                 id: 4,
+                pid: 0,
                 label: '财务部'
             }, {
                 id: 11,
+                pid: 0,
                 label: 'HR人事'
             }
         ]
