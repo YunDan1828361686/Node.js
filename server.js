@@ -37,6 +37,9 @@ app.post("/getmenu", function (req, res) {
             {
                 path: "/Test",
                 name: "Test",
+                meta: {
+                    title: 'Test'
+                },
                 component: "Main",
                 children: [
                     {
@@ -53,11 +56,22 @@ app.post("/getmenu", function (req, res) {
                         path: "/Test2",
                         name: "Test2",
                         meta: {
+                            icon: "_buju",
                             title: "测试2",
-                            hideInMenu: true,
+                            // hideInMenu: true,
                         },
                         component:
                             "/Test2.vue",
+                    },
+                    {
+                        path: "/Test3",
+                        name: "Test3",
+                        meta: {
+                            icon: "_buju",
+                            title: "测试3",
+                        },
+                        component:
+                            "/Test3.vue",
                     },
                 ],
             },
@@ -67,6 +81,9 @@ app.post("/getmenu", function (req, res) {
             {
                 path: "/Test",
                 name: "Test",
+                meta: {
+                    title: 'Test'
+                },
                 component: "Main",
                 children: [
                     {
