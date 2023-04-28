@@ -31,11 +31,13 @@ router.post("/echarts3", function (req, res) {
 });
 
 router.post("/test1", function (req, res) {
-    res.json({
-        code: 0,
-        msg: "请求成功!",
-        data: "111"
-    });
+    setTimeout(() => {
+        res.json({
+            code: 0,
+            msg: "请求成功!",
+            data: "111"
+        });
+    }, 2000);
 });
 
 router.post("/test2", function (req, res) {

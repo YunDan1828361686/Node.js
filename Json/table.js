@@ -105,7 +105,7 @@ let pagination2 = {
 let pagination3 = {
     total: 15,
     current: 1,
-    size: 10,
+    size: 20,
     TableData: [
         {
             num_id: '1',
